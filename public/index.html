@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recovery Peer Chat</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="chat-app">
+      <h1>Recovery Peer Chat</h1>
+      <p class="subtitle">A calm space for support, reflection, and growth.</p>
+
+      <section id="chatHistory" class="chat-history" aria-live="polite"></section>
+
+      <form id="chatForm" class="chat-form">
+        <input
+          id="messageInput"
+          type="text"
+          placeholder="Share what’s on your mind..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
