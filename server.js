@@ -15,8 +15,7 @@ app.use(express.static("public"));
 
 // Create the OpenAI client once and reuse it
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+  apiKey: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
 
 // Friendly system instructions that shape the assistant's tone and behavior
 const SYSTEM_PROMPT = `You are a supportive AI peer focused on recovery and self-improvement.
